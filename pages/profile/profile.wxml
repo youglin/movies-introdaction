@@ -1,0 +1,2 @@
+<button class="button" bindtap="getlocation"  markers="{{markers}}">点击定位</button> 
+<map longitude="113.383965" latitude="23.053154" markers="{{markers}}" covers="{{covers}}" style="width: 100%; height: 400px;margin-top:20px"></map>

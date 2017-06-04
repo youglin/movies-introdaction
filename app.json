@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/movie/movie",
+    "pages/search/search",
+    "pages/profile/profile",
+    "pages/music/music"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "潘多拉魔盒",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color":"#ccc",
+    "list":[
+     {
+      "text": "推荐电影",
+      "iconPath": "images/2/Star On.png",
+      "selectedIconPath": "images/1/heart.png",
+      "pagePath": "pages/index/index"
+    },
+    {
+      "text": "搜索",
+      "iconPath": "images/1/search.png",
+      "selectedIconPath": "images/1/heart.png",
+      "pagePath": "pages/search/search"
+    },
+    {
+      "text": "音乐",
+      "iconPath": "images/2/Music Green.png",
+      "selectedIconPath": "images/1/heart.png",
+      "pagePath": "pages/music/music"
+    },
+    {
+      "text": "地图",
+      "iconPath": "images/1/flag.png",
+      "selectedIconPath": "images/1/heart.png",
+      "pagePath": "pages/profile/profile"
+    }
+    ]
+ 
+  }
+}
